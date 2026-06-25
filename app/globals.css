@@ -1,0 +1,12 @@
+@import "tailwindcss";
+:root{--bg:#09090b;--fg:#fafafa;--muted:#a1a1aa;--accent:#2563eb;}
+html{scroll-behavior:smooth}
+body{
+margin:0;
+background:
+radial-gradient(circle at top right,rgba(37,99,235,.18),transparent 35%),
+radial-gradient(circle at bottom left,rgba(255,255,255,.03),transparent 25%),
+var(--bg);
+color:var(--fg);
+font-family:system-ui,sans-serif}
+a{text-decoration:none;color:inherit}
