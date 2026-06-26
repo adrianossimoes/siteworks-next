@@ -163,104 +163,27 @@ section {
   }
 }
 
-
-/* ===== Responsive improvements ===== */
-.menu-toggle{
- display:none;
- background:none;
- border:1px solid #444;
- color:#fff;
- font-size:1.4rem;
- border-radius:8px;
- padding:8px 12px;
- cursor:pointer;
-}
-
-img{max-width:100%;height:auto;}
-
-@media (max-width:900px){
-
-.header .container{
-    height:auto;
-    padding-top:12px;
-    padding-bottom:12px;
-    flex-wrap:wrap;
-}
-
-.menu-toggle{
-    display:block;
-    margin-left:auto;
-}
-
-nav{
-    display:none;
-    width:100%;
-    flex-direction:column;
-    gap:0;
-    margin-top:12px;
-}
-
-nav.open{
-    display:flex;
-}
-
-nav a{
-    padding:14px 0;
-    border-top:1px solid #222;
-}
-
-.header .button.primary{
-    display:none;
-}
-
-.container{
-    padding:0 18px;
-}
-
-.hero{
-    padding:70px 0;
-}
-
-.hero-grid{
-    gap:35px;
-}
-
-h1{
-    font-size:2.2rem;
-    line-height:1.2;
-}
-
-h2{
-    font-size:1.8rem;
-}
-
-.actions{
-    flex-direction:column;
-}
-
-.actions .button{
-    width:100%;
-    text-align:center;
-}
-
-.cards,
-.logos{
-    grid-template-columns:1fr;
-}
-
-.footer{
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-    text-align:center;
-}
-
-ul{
-    padding-left:20px;
-}
-
-li{
-    margin-bottom:8px;
-}
-
+/* V2 responsive */
+.menu-toggle{display:none;background:none;border:1px solid #444;color:#fff;padding:8px 12px;border-radius:8px;font-size:1.3rem}
+details.accordion{background:#111113;border:1px solid #2a2a2d;border-radius:12px;padding:8px 16px;margin:18px 0}
+details summary{cursor:pointer;font-weight:600;color:#fff;padding:8px 0}
+details[open]{border-color:#2563eb}
+details ul{margin-top:12px}
+img{max-width:100%;height:auto}
+@media(max-width:900px){
+.menu-toggle{display:block;margin-left:auto}
+.header .button.primary{display:none}
+nav{display:none;width:100%;flex-direction:column}
+nav.open{display:flex}
+nav a{padding:12px 0;border-top:1px solid #222}
+.header .container{height:auto;flex-wrap:wrap;padding:12px 18px}
+.container{padding:0 18px}
+.hero{padding:72px 0}
+.hero-grid{grid-template-columns:1fr;gap:32px}
+h1{font-size:2.2rem;line-height:1.2}
+h2{font-size:1.8rem}
+.actions{flex-direction:column}
+.actions .button{width:100%;text-align:center}
+.cards,.logos{grid-template-columns:1fr}
+.footer{display:block;text-align:center}
 }

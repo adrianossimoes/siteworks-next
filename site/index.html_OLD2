@@ -11,8 +11,8 @@
 <body>
 <header class="header">
 <div class="container">
-<div class="logo">SITEWORKS</div>
-<button aria-label="Abrir menu" class="menu-toggle">☰</button><nav>
+<button aria-label="Menu" class="menu-toggle">☰</button><div class="logo">SITEWORKS</div>
+<nav>
 <a href="#home">Home</a>
 <a href="#quem">Quem Somos</a>
 <a href="#ojs">Hospedagem OJS</a>
@@ -36,13 +36,13 @@
 </div>
 </div>
 <div class="hero-card">
-<h3>Infraestrutura Gerenciada</h3>
-<ul>
+<h3>Infraestrutura Gerenciada</h3><details class="accordion"><summary>Infraestrutura Gerenciada</summary><ul>
 <li>Backups automáticos</li>
 <li>Monitoramento</li>
 <li>Atualizações</li>
 <li>Suporte especializado</li>
-</ul>
+</ul></details>
+
 </div>
 </div>
 </section>
@@ -63,9 +63,7 @@
 <div class="card"><h3>Atualizações</h3><p>Atualização do núcleo e plugins.</p></div>
 <div class="card"><h3>Suporte</h3><p>Atendimento especializado para equipes editoriais.</p></div>
 </div>
-<p></p>
-Portal de revistas da Universidade Estadual de Minas Gerais (UEMG) (http://revista.uemg.br/)
-<ul>
+<p></p><details class="accordion"><summary>Lista</summary><ul>
 <li>Bantu</li>
 <li>Ciência ET Praxis (Qualis B3 – 2017-2018)</li>
 <li>Ciências Gerenciais em Foco</li>
@@ -117,10 +115,7 @@ Portal de revistas da Universidade Estadual de Minas Gerais (UEMG) (http://revis
 <li>Scripta</li>
 <li>Sinapse Múltipla</li>
 <li>Virtuajus</li>
-</ul>
-
-Portal de revistas da Universidade Católica de Brasilia (UCB) (https://portalrevistas.ucb.br/)
-<ul>
+</ul></details><details class="accordion"><summary>Lista Bantu Ciência ET Praxis (Qualis B3 – 2017-2018) Ciências Gerenciais em Foc</summary><ul>
 <li>Revista PIBID</li>
 <li>Periagoge</li>
 <li>Anais do Interprogramas Secomunica</li>
@@ -144,25 +139,15 @@ Portal de revistas da Universidade Católica de Brasilia (UCB) (https://portalre
 <li>Revista do Mestrado em Direito da Universidade Católica de Brasília: Escola de Direito</li>
 <li>Revista Gestão do Conhecimento e Tecnologia da Informação</li>
 <li>World Citizen Magazine</li>
-</ul>
-
-
-Portal de revistas do Centro Universitário Católica de Tocantins (FACTO) (https://to.catolica.edu.br/revistas/index.php/riu)
-<ul>
+</ul></details><details class="accordion"><summary>Lista Bantu Ciência ET Praxis (Qualis B3 – 2017-2018) Ciências Gerenciais em Foc</summary><ul>
 <li>Revista Integralização Universitária</li>
-</ul>
-
-Portal de revistas da Universidade Metropolitana de Santos (UNIMES)(http://periodicosunimes.unimesvirtual.com.br/)
-<ul>
+</ul></details><details class="accordion"><summary>Lista Bantu Ciência ET Praxis (Qualis B3 – 2017-2018) Ciências Gerenciais em Foc</summary><ul>
 <li>Legalis Scientia</li>
 <li>Revista Paidéi@ – Revista Científica de Educação a Distância</li>
 <li>Ágor@ – Revista Acadêmica de Formação de Professores</li>
 <li>Aten@- Revista Digital de Gestão &amp; Negócios</li>
 <li>Revista Higei@ – Revista Científica de Saúde</li>
-</ul>
-
-Revistas OJS:
-<ul>
+</ul></details><details class="accordion"><summary>Lista Bantu Ciência ET Praxis (Qualis B3 – 2017-2018) Ciências Gerenciais em Foc</summary><ul>
 <li>Revista Debates em Psiquiatria (http://revistardp.org.br/)</li>
 <li>Revista Cuidar &amp; Pesquisar em Saúde</li>
 <li>Revista de Direitos e Garantias Fundamentais</li>
@@ -175,7 +160,22 @@ Revistas OJS:
 <li>Revista Sapienza (RESA) (http://resa.journals.com.br/)</li>
 <li>Revista Científica UniScientiae (https://academico.univicosa.com.br/revista/index.php/RevistaTecnologiaeCiencia)</li>
 <li>Revista eletrônica produção &amp; engenharia (https://periodicos.ufjf.br/index.php/producaoeengenharia/index)</li>
-</ul>
+</ul></details>
+Portal de revistas da Universidade Estadual de Minas Gerais (UEMG) (http://revista.uemg.br/)
+
+
+Portal de revistas da Universidade Católica de Brasilia (UCB) (https://portalrevistas.ucb.br/)
+
+
+
+Portal de revistas do Centro Universitário Católica de Tocantins (FACTO) (https://to.catolica.edu.br/revistas/index.php/riu)
+
+
+Portal de revistas da Universidade Metropolitana de Santos (UNIMES)(http://periodicosunimes.unimesvirtual.com.br/)
+
+
+Revistas OJS:
+
 </div>
 </section>
 <section id="dspace">
@@ -186,16 +186,16 @@ Revistas OJS:
 <div class="card"><h3>Atualização</h3><p>Evolução segura de versões.</p></div>
 <div class="card"><h3>Monitoramento</h3><p>Operação contínua e preventiva.</p></div>
 </div>
-<p></p>
-Repositórios de nossos clientes
-<ul>
+<p></p><details class="accordion"><summary>Lista</summary><ul>
 <li>Biblioteca Digital de Dissertações da Universidade Católica de Brasília – UCB</li>
 <li>Repositório Institucional da Universidade Católica de Brasília</li>
 <li>Repositório Institucional Unichristus</li>
 <li>Memória institucional da UNICEUB</li>
 <li>Repositório institucional da UNICEUB</li>
 <li>Repositório institucional das Faculdades IDAAM</li>
-</ul>
+</ul></details>
+Repositórios de nossos clientes
+
 </div>
 </section>
 <section id="clientes">
@@ -210,8 +210,7 @@ Repositórios de nossos clientes
 <div>Editoras</div>
 <div>Centros de Pesquisa</div>
 <div>Instituições de Ensino</div>
-</div>
-<ul>
+</div><details class="accordion"><summary>Universidades Institutos Federais Fundações Órgãos Públicos Hospitais Editoras C</summary><ul>
 <li>ABDI - Associação Brasileira de Direito Internacional</li>
 <li>ABP - Associação Brasileira de Psiquiatria</li>
 <li>Antonelli &amp; Associados Advogados</li>
@@ -241,7 +240,8 @@ Repositórios de nossos clientes
 <li>UNICHRISTUS - Centro Universitário Christus</li>
 <li>UNISÃOMIGUEL - Centro Universitário São Miguel</li>
 <li>UNIVIÇOSA - União de Ensino Superior de Viçosa</li>
-</ul>
+</ul></details>
+
 
 </div>
 </section>
@@ -259,10 +259,5 @@ Repositórios de nossos clientes
 <div>OJS • DSpace • Desenvolvimento de Software</div>
 </div>
 </footer>
-<script>
-const btn=document.querySelector('.menu-toggle');
-const nav=document.querySelector('nav');
-btn.addEventListener('click',()=>nav.classList.toggle('open'));
-document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
-</script></body>
+<script>document.querySelector('.menu-toggle')?.addEventListener('click',()=>document.querySelector('nav').classList.toggle('open'));</script></body>
 </html>

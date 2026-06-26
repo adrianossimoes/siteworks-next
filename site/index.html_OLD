@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Siteworks | Hospedagem OJS e DSpace</title>
-<meta content="Especialistas em hospedagem, suporte e consultoria para OJS e DSpace." name="description"/>
-<link href="assets/style.css" rel="stylesheet"/>
+<meta name="description" content="Especialistas em hospedagem, suporte e consultoria para OJS e DSpace.">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+
 <header class="header">
 <div class="container">
 <div class="logo">SITEWORKS</div>
-<button aria-label="Abrir menu" class="menu-toggle">☰</button><nav>
+<nav>
 <a href="#home">Home</a>
 <a href="#quem">Quem Somos</a>
 <a href="#ojs">Hospedagem OJS</a>
@@ -23,7 +23,8 @@
 <a class="button primary" href="#contato">Solicite uma proposta</a>
 </div>
 </header>
-<section class="hero" id="home">
+
+<section id="home" class="hero">
 <div class="container hero-grid">
 <div>
 <span class="eyebrow">Especialistas em Publicações Científicas e Repositórios Institucionais</span>
@@ -46,6 +47,7 @@
 </div>
 </div>
 </section>
+
 <section id="quem">
 <div class="container narrow">
 <h2>Quem Somos</h2>
@@ -54,6 +56,7 @@
 </p>
 </div>
 </section>
+
 <section id="ojs">
 <div class="container">
 <h2>OJS - Open Journal Systems</h2>
@@ -96,7 +99,7 @@ Portal de revistas da Universidade Estadual de Minas Gerais (UEMG) (http://revis
 <li>Conjuntura internacional</li>
 <li>ContraPonto</li>
 <li>Dispositiva</li>
-<li>Revista Economia &amp; Gestão</li>
+<li>Revista Economia & Gestão</li>
 <li>Em Sociedade</li>
 <li>Enfermagem Revista</li>
 <li>Estudos Internacionais: revista de relações internacionais da PUC Minas</li>
@@ -157,33 +160,36 @@ Portal de revistas da Universidade Metropolitana de Santos (UNIMES)(http://perio
 <li>Legalis Scientia</li>
 <li>Revista Paidéi@ – Revista Científica de Educação a Distância</li>
 <li>Ágor@ – Revista Acadêmica de Formação de Professores</li>
-<li>Aten@- Revista Digital de Gestão &amp; Negócios</li>
+<li>Aten@- Revista Digital de Gestão & Negócios</li>
 <li>Revista Higei@ – Revista Científica de Saúde</li>
 </ul>
 
 Revistas OJS:
 <ul>
 <li>Revista Debates em Psiquiatria (http://revistardp.org.br/)</li>
-<li>Revista Cuidar &amp; Pesquisar em Saúde</li>
+<li>Revista Cuidar & Pesquisar em Saúde</li>
 <li>Revista de Direitos e Garantias Fundamentais</li>
 <li>Marx e o Marxismo – Revista do NIEP-Marx (http://www.niepmarx.blog.br/revistadoniep/index.php/MM)</li>
 <li>Revista Compolítica (http://compolitica.org/revista/index.php/revista)</li>
 <li>REnBio – Revista de Ensino de Biologia da SBEnBio (http://sbenbio.journals.com.br/)</li>
 <li>Brazilian Journal of Geophysics (https://www.sbgf.org.br/revista/index.php/rbgf/)</li>
 <li>Revista da Sociedade Brasileira de Economia Política (http://www.revistasep.org.br/index.php/SEP)</li>
-<li>UFMG – Revista Produção &amp; Engenharia (https://www.periodicosdeminas.ufmg.br/periodicos/revista-producao-engenharia/)</li>
+<li>UFMG – Revista Produção & Engenharia (https://www.periodicosdeminas.ufmg.br/periodicos/revista-producao-engenharia/)</li>
 <li>Revista Sapienza (RESA) (http://resa.journals.com.br/)</li>
 <li>Revista Científica UniScientiae (https://academico.univicosa.com.br/revista/index.php/RevistaTecnologiaeCiencia)</li>
-<li>Revista eletrônica produção &amp; engenharia (https://periodicos.ufjf.br/index.php/producaoeengenharia/index)</li>
+<li>Revista eletrônica produção & engenharia (https://periodicos.ufjf.br/index.php/producaoeengenharia/index)</li>
 </ul>
+
 </div>
 </section>
+
 <section id="dspace">
 <div class="container">
 <h2>DSpace - Repositório institucional de código aberto</h2>
 <div class="cards">
 <div class="card"><h3>Implantação</h3><p>Configuração inicial e personalização.</p></div>
 <div class="card"><h3>Atualização</h3><p>Evolução segura de versões.</p></div>
+
 <div class="card"><h3>Monitoramento</h3><p>Operação contínua e preventiva.</p></div>
 </div>
 <p></p>
@@ -196,8 +202,10 @@ Repositórios de nossos clientes
 <li>Repositório institucional da UNICEUB</li>
 <li>Repositório institucional das Faculdades IDAAM</li>
 </ul>
+
 </div>
 </section>
+
 <section id="clientes">
 <div class="container">
 <h2>Clientes</h2>
@@ -211,10 +219,11 @@ Repositórios de nossos clientes
 <div>Centros de Pesquisa</div>
 <div>Instituições de Ensino</div>
 </div>
+
 <ul>
 <li>ABDI - Associação Brasileira de Direito Internacional</li>
 <li>ABP - Associação Brasileira de Psiquiatria</li>
-<li>Antonelli &amp; Associados Advogados</li>
+<li>Antonelli & Associados Advogados</li>
 <li>APSA - Administradora de Imóveis</li>
 <li>AEDB - Associação Educacional Dom Bosco</li>
 <li>UNIMES - Centro de Estudos Unificados Bandeirante</li>
@@ -242,27 +251,26 @@ Repositórios de nossos clientes
 <li>UNISÃOMIGUEL - Centro Universitário São Miguel</li>
 <li>UNIVIÇOSA - União de Ensino Superior de Viçosa</li>
 </ul>
+</p>
 
 </div>
 </section>
+
 <section id="contato">
 <div class="container narrow center">
 <h2>Vamos conversar?</h2>
 <p>Conte-nos seu projeto e encontraremos a melhor solução para sua instituição.</p>
 <a class="button primary" href="mailto:contato@siteworks.com.br">contato@siteworks.com.br</a>
-<a aa="" class="button secondary">WhatsApp: +55 21 97606-9879</a>
+<a class="button secondary" aa>WhatsApp: +55 21 97606-9879</a>
 </div>
 </section>
+
 <footer>
 <div class="container footer">
 <div>© Siteworks • Desde 2000</div>
 <div>OJS • DSpace • Desenvolvimento de Software</div>
 </div>
 </footer>
-<script>
-const btn=document.querySelector('.menu-toggle');
-const nav=document.querySelector('nav');
-btn.addEventListener('click',()=>nav.classList.toggle('open'));
-document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
-</script></body>
+
+</body>
 </html>
